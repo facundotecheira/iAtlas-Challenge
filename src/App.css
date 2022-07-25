@@ -1,0 +1,78 @@
+.containerImage{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+}
+
+.containerImg{
+  border: 1px solid black;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  
+}
+
+.img{
+  width: 10rem;
+  border: 1px solid black;
+}
+
+.linktToImg{
+  text-decoration: none;
+  border: 1px solid black;
+  text-align: center;
+  padding: .5rem;
+  color: white;
+  background-color: black;
+}
+
+.ctn{
+  margin-top: 1rem;
+  display: flex;
+  justify-content:center;
+  
+}
+
+.cajaimg, img{
+  border: 1px solid black;
+
+}
+
+.cajaimg{
+  height: 100%;
+}
+
+.cajaDatos{
+margin-left: 1rem;
+display: flex;
+flex-direction: column;
+}
+
+.containerDatos{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.containerDatos input{
+  margin-bottom: 1rem;
+}
+
+.btnVolver{
+  margin-top: 1rem;
+  width: 10rem;
+  color: white;
+  background-color: black;
+}
+
+.btnVolver:hover{
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+}
